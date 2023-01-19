@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 283;
+
+
+}
+
+
+nav {
+	
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	align-items: center;
+}
+
+
+ul {
+	list-style: none;
+	display: flex;
+	width: 70%;
+	justify-content: space-around;
+	font-size: 14pt;
+	font-family: 'Roboto', sans-serif;
+	color:black;
+	font-weight:400;
+}
+
+nav img {
+	width: 40px;
+	height: 40px;
+}
+
+
+a {
+	text-decoration: none;
+	
+}
+
+
+
+
+
+main {
+	height: 100vh;
+	background-color: white;
+	background-image: url(image/4.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	background-position: center;
+	background-size: 100%;
+}
+
+
+.connect {
+	height: 400px;
+	width: 500px;
+	background-color: white;
+	position: absolute;
+	top: 320px;
+	left: 200px;
+	border-radius: 7%;
+	opacity: 60%;
+	padding-left: 20px;
+	z-index: auto;
+}
+
+.connect>p {
+	font-size: 45pt;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+
+
+button {
+	width: 150px;
+	height: 40px;
+	margin: 20px;
+}
+
+
+#btn1 {
+	border-radius: 7px;
+	border: none;
+	background-color: #4169E1;
+	color: white;
+	font-size: 14pt;
+}
+
+
+#btn1:hover {
+	background-color: grey;
+	box-shadow: 3px 3px 3px 3px blue;
+}
+
+
+
+
+
+
+.services {
+	height: 100vh;
+	background-color: lightgrey;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-row-gap: 15px;
+	grid-column-gap: 5%;
+	justify-content: center;
+	margin: 0 auto;
+	padding-top: 130px;
+	
+}
+
+.block {
+	
+	
+	height: 250px;
+	border-radius: 15px;
+	background-color: white;
+	display: flex;
+	justify-self: center;
+	
+	
+	
+}
+.price {
+	font-weight: 600;
+}
+
+.block-text {
+	padding: 10px;
+	
+}
+
+.services img {
+	height: 250px;
+	width: 250px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius:15px ;
+}
+
+
+
+.projects {
+	height: 100vh;
+	background-color: white;
+}
+
+.contacts {
+	height: 100vh;
+	background-color: grey;
+}
+
+
+
+footer {
+	height: 100px;
+	background-color: black;
+}
+
+
+
+
+
